@@ -3,6 +3,6 @@
         "ext-gd": "*",
         "ext-soap": "*",
         "ext-mcrypt": "*",
-        "ext-mbstring": "*",
+        "ext-mbstring": "*"
     }
 }
