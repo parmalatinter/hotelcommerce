@@ -2,7 +2,7 @@
     "require": {
         "ext-gd": "*",
         "ext-soap": "*",
-        "ext-mcrypt": "*",
-        "ext-mbstring": "*"
+        "ext-mbstring": "*",
+        "google/cloud-tools": "^0.9.1"
     }
 }
