@@ -25,7 +25,7 @@
         </div>
     </div>
     <div class="col-sm-12 category_page_search_block clear-both">
-        <form method="POST" autocomplete="on" autofill="on">
+        <form method="GET" autocomplete="on" autofill="on">
 
             {if isset($error) && ($error == 1)}
                 <p class="error_msg"><i class="icon-times-circle-o"></i>&nbsp;&nbsp;{l s='All Fields are mandatory.' mod='wkroomsearchblock'}</p>
