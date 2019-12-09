@@ -76,7 +76,7 @@ if (defined('_PS_ADMIN_DIR_')) {
     define('_PS_BO_ALL_THEMES_DIR_', _PS_ADMIN_DIR_.'/themes/');
 }
 if (!defined('_PS_CACHE_DIR_')) {
-    define('_PS_CACHE_DIR_',             _PS_ROOT_DIR_.'/cache/');
+    define('_PS_CACHE_DIR_',             _PS_ROOT_DIR_.'/tmp/');
 }
 define('_PS_CONFIG_DIR_',             _PS_CORE_DIR_.'/config/');
 define('_PS_CUSTOM_CONFIG_FILE_',     _PS_CONFIG_DIR_.'settings_custom.inc.php');
