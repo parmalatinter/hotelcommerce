@@ -3,6 +3,7 @@
         "ext-gd": "*",
         "ext-soap": "*",
         "ext-mbstring": "*",
-        "google/cloud-tools": "^0.9.1"
+        "google/cloud-tools": "^0.9.1",
+         "heroku/heroku-buildpack-php": "*"
     }
 }
