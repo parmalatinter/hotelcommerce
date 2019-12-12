@@ -4,5 +4,8 @@
         "ext-soap": "*",
         "ext-mbstring": "*",
         "google/cloud-tools": "^0.9.1"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
     }
 }
