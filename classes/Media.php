@@ -500,7 +500,7 @@ class MediaCore
         $compressed_css_files_infos = array();
         $protocol_link = Tools::getCurrentUrlProtocolPrefix();
         //if cache_path not specified, set curent theme cache folder
-        $cache_path = $cache_path ? $cache_path : _PS_THEME_DIR_.'cache/';
+        $cache_path = $cache_path ? $cache_path : _PS_ROOT_DIR_.'/tmp/themes/'._THEME_NAME_.'/cache/';
         $css_split_need_refresh = false;
 
         // group css files by media
@@ -689,7 +689,7 @@ class MediaCore
         $compressed_js_filename = '';
         $js_external_files = array();
         $protocol_link = Tools::getCurrentUrlProtocolPrefix();
-        $cache_path = _PS_THEME_DIR_.'cache/';
+        $cache_path = _PS_ROOT_DIR_.'/tmp/themes/'._THEME_NAME_.'/cache/';
 
         // get js files infos
         foreach ($js_files as $filename) {
