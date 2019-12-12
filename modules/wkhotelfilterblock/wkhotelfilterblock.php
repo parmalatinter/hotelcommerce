@@ -140,9 +140,9 @@ class wkhotelfilterblock extends Module
                 }
             }
             if (Configuration::get('PS_REWRITING_SETTINGS')) {
-                $cat_link = $this->context->link->getCategoryLink($category, is_array($category->link_rewrite) ? $category->link_rewrite[$id_lang] : $this->link_rewrite, $id_lang).'?date_from='.$date_from.'&date_to='.$date_to;
+                $cat_link = $this->context->link->getCategoryLink($category, !empty($category->link_rewrite) ? $category->link_rewrite[$id_lang] : $this->link_rewrite, $id_lang).'?date_from='.$date_from.'&date_to='.$date_to;
             } else {
-                $cat_link = $this->context->link->getCategoryLink($category, is_array($category->link_rewrite) ? $category->link_rewrite[$id_lang] : $this->link_rewrite, $id_lang).'&date_from='.$date_from.'&date_to='.$date_to;
+                $cat_link = $this->context->link->getCategoryLink($category, !empty($category->link_rewrite) ? $category->link_rewrite[$id_lang] : $this->link_rewrite, $id_lang).'&date_from='.$date_from.'&date_to='.$date_to;
             }
             $currency = $this->context->currency;
 
