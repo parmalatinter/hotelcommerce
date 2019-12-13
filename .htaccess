@@ -11,9 +11,6 @@ RewriteEngine on
 
 
 #Domain: hotel-sample.herokuapp.com/
-
-RewriteRule ^ index.php [QSA,L]
-
 RewriteRule . - [E=REWRITEBASE:/]
 RewriteRule ^api$ api/ [L]
 
