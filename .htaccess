@@ -9,8 +9,6 @@ SetEnv HTTP_MOD_REWRITE On
 
 RewriteEngine on
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.php [QSA,L]
 
 #Domain: hotel-sample.herokuapp.com/
 RewriteRule . - [E=REWRITEBASE:/]
