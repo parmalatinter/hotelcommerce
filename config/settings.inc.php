@@ -7,11 +7,11 @@ define('_DB_PREFIX_', 'ps_');
 define('_MYSQL_ENGINE_', 'InnoDB');
 define('_PS_CACHING_SYSTEM_', 'CacheMemcache');
 define('_PS_CACHE_ENABLED_', '0');
-define('_COOKIE_KEY_', '1CzQT4mdkDBjG5qtJ836PmvmRXGrbk2rL0TQSfVRnXwv5YXLI64M7CvS');
-define('_COOKIE_IV_', 'H77ACZqe');
-define('_PS_CREATION_DATE_', '2019-12-09');
+define('_COOKIE_KEY_', 'SqL3KB1NPjGQyc2pdnFjzgFZgHUraEFwNoBLZbHQP4Yn8Wf3pXYUH3Rd');
+define('_COOKIE_IV_', 'HaSM1jUa');
+define('_PS_CREATION_DATE_', '2019-12-18');
 if (!defined('_PS_VERSION_'))
 	define('_PS_VERSION_', '1.6.1.23');
 define('_QLOAPPS_VERSION_', '1.4.0');
-define('_RIJNDAEL_KEY_', '8Cu88VZ86ts14jTeQMiLwWkm3jbrESw1');
-define('_RIJNDAEL_IV_', 'nbjBDzoz8BRnlfXUDmd4mA==');
+define('_RIJNDAEL_KEY_', 'GRV4YMTAiv8ci4kMTNtygq1ewMcwr6pJ');
+define('_RIJNDAEL_IV_', 'O8YzlWXaBn0DAEC62h9p9A==');
